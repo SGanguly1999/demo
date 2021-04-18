@@ -57,7 +57,7 @@ font-size: 15px;
 <body>
 <header>
     <h1>
-        Meme Stream
+        Online Auction
     </h1>
 </header>
 <section class="strip">
@@ -66,11 +66,11 @@ font-size: 15px;
 <section class="form">
     <form action="add" method="post">
         <label for="owner" >
-        <h3>Meme Owner:</h3></label>
+        <h3>Seller:</h3></label>
   <input placeholder="Enter your name" id="owner" type="text"  name="owner" size="100"><br><br>
-  <label for="caption"><h3>Caption:</h3></label>
+  <label for="caption"><h3>Price:</h3></label>
   <input placeholder="Enter the caption" id="caption" type="text"  name="caption"  size="100"><br><br>
-        <label for="url"><h3>Image URL:</h3></label>
+        <label for="url"><h3>Image Picture:</h3></label>
   <input placeholder="Enter a valid URL" id="url" type="url"  name="url" size="100"><br><br>
   <input type="submit" value="Submit">
     </form>
